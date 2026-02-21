@@ -2,7 +2,7 @@ import React from "react";
 
 function Tabs() {
   return (
-    <div>
+    <>
       <div className="tabs">
         <button id="Home-Tab" className="tab">Home</button>
         <button id="About-Tab" className="tab">About</button>
@@ -12,7 +12,7 @@ function Tabs() {
       <div className="viewport">
         Pages Go Here
       </div>
-    </div>
+    </>
   );
 }
 
